@@ -7,7 +7,7 @@ while counter < 100:
     if number%i == 0:
       isPrime = False
       break
-      if isPrime:
-        counter += 1
-        print(number)
-      number += 1
+    if isPrime:
+      counter += 1
+      print(number)
+    number += 1
